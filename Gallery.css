@@ -97,7 +97,7 @@
 {
   padding: 50px;
   text-align: center;
-  background-color: #474e5d;
+  background-color: #ff4d4d;
   color: white;
 }
 
@@ -143,7 +143,7 @@ img {
 .footer-dark {
   padding:50px 0;
   color:#f0f9ff;
-  background-color:#282d32;
+  background-color:#ff3333;
 }
 
 .footer-dark h3 {
@@ -214,7 +214,7 @@ img {
   border-radius:50%;
   box-shadow:0 0 0 1px rgba(255,255,255,0.4);
   margin:0 8px;
-  color:#fff;
+  color:rgb(255, 255, 255);
   opacity:0.75;
 }
 
@@ -230,7 +230,40 @@ img {
   margin-bottom:0;
 }
 
-https://epicbootstrap.com/snippets/footer-dark
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ff3333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #ff4d4d;;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
 
 
 
