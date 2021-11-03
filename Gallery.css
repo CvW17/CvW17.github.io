@@ -97,7 +97,7 @@
 {
   padding: 50px;
   text-align: center;
-  background-color: #ff4d4d;
+  background-color: #EF869C;;
   color: white;
 }
 
@@ -143,7 +143,7 @@ img {
 .footer-dark {
   padding:50px 0;
   color:#f0f9ff;
-  background-color:#ff3333;
+  background-color:#FB92B3;
 }
 
 .footer-dark h3 {
@@ -233,7 +233,7 @@ img {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #ff3333;
+  background-color: #FB92B3;
   overflow: hidden;
 }
 
@@ -256,7 +256,7 @@ img {
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #ff4d4d;;
+  background-color: #EF869C;;
   color: white;
 }
 
