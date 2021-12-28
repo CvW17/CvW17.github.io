@@ -272,19 +272,22 @@ img
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.topnav a:hover 
+{
   background-color: #ddd;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
-.topnav a.active {
+.topnav a.active 
+{
   background-color: #EF869C;
   color: white;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
+.topnav .icon 
+{
   display: none;
 }
 
